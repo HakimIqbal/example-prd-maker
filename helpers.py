@@ -58,8 +58,8 @@ def load_prompt_from_file():
 
             # Menambahkan instruksi "Pronas" untuk memastikan fokus dalam konteks overview
             pronas = """
-            Pastikan semua jawaban dan keluaran yang dihasilkan terkait langsung dengan konteks overview yang diberikan.
-            Hindari pembahasan yang keluar dari lingkup masalah yang tercantum dalam overview.
+            Please ensure that all responses and outputs generated are strictly relevant to the context of the provided overview.
+            Avoid discussing or addressing any topics outside the scope outlined in the overview.
             """
 
             # Menggabungkan pronas dengan template prompt yang ada
